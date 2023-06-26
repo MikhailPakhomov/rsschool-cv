@@ -12,3 +12,20 @@ I work as a communications engineer for an integrator company. I am engaged in t
 * CSS
 * JS (basic)
 * React (basic)
+## Code Example
+```
+// get radiostations list
+
+const url = "https://de1.api.radio-browser.info/json/stations/search?countrycode=RU&limit=100&offset=0&hidebroken=true";
+
+const [stations, setStations] = useState([]);
+
+useEffect( () => {
+    axios
+        .get(url)
+        .then( (response) => {
+            setStations(response.data);
+        })
+}, []);
+
+```
