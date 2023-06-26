@@ -33,3 +33,8 @@ useEffect( () => {
 * Social Network (learning project) (HTML, CSS, JS, React, Redux, FLUX)
     + YouTube Channel: [It-Kamasutra](https://www.youtube.com/@ITKAMASUTRA)
 
+## Education
+* [ReactJS - The Way of the Samurai 1.0](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
+## Language
+* Russian
+* English (reading technical documentation with a translator)
