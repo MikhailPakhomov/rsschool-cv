@@ -29,3 +29,7 @@ useEffect( () => {
 }, []);
 
 ```
+## Experience
+* Social Network (learning project) (HTML, CSS, JS, React, Redux, FLUX)
+    + YouTube Channel: [It-Kamasutra](https://www.youtube.com/)
+
