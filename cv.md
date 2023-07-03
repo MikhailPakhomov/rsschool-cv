@@ -1,4 +1,4 @@
-![Avatar](./avatar.jpg)
+![Avatar](./assets/img/avatar.jpg)
 
 # Mikhail Pakhomov
 
