@@ -242,6 +242,11 @@ ul {
     color: #000000;
     background-color: lemonchiffon;
 }
+.fullname-mobile-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+}
 .main-section{
     padding: 10px 40px 10px 40px;
     margin-top: 10px;
