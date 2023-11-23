@@ -11,16 +11,17 @@
   <header class="header">
     <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#contacts">Contacts</a></li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#skills">Skills</a></li>
-            <li class="nav-item"><a href="#code-example">Code Example</a></li>
-            <li class="nav-item"><a href="#experience">Experience</a></li>
-            <li class="nav-item"><a href="#education">Education</a></li>
-            <li class="nav-item"><a href="#language">Language</a></li>
+            <li class="nav-item"><a href="#contacts" title="contacts">Contacts</a></li>
+            <li class="nav-item"><a href="#about" title="about">About</a></li>
+            <li class="nav-item"><a href="#skills" title="skills">Skills</a></li>
+            <li class="nav-item"><a href="#code-example" title="code">Code Example</a></li>
+            <li class="nav-item"><a href="#experience" title="experience">Experience</a></li>
+            <li class="nav-item"><a href="#education" title="education">Education</a></li>
+            <li class="nav-item"><a href="#language" title="language">Language</a></li>
         </ul>
     </nav>
     <button class="nav-mobile-button">
+        btn
         <span class="nav-mobile-button-icon"></span>
     </button>
     <nav class="nav-mobile">
@@ -93,10 +94,10 @@ const url = "https://de1.api.radio-browser.info/json/stations/";
 
 const [stations, setStations] = useState([]);
 
-useEffect( () => {
+useEffect( () =&gt; {
     axios
         .get(url)
-        .then( (response) => {
+        .then( (response) =&gt; {
             setStations(response.data);
         })
 }, []);
@@ -112,10 +113,10 @@ const url =
 
 const [stations, setStations] = useState([]);
 
-useEffect( () => {
+useEffect( () =&gt; {
     axios
         .get(url)
-        .then( (response) => {
+        .then( (response) =&gt; {
             setStations(response.data);
         })
 }, []);
